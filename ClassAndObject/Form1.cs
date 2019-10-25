@@ -17,7 +17,7 @@ namespace ClassAndObject
         public event EventHandler IncreaseClick;
         public event EventHandler DicreaseClick;
         public event EventHandler ShowClick;
-        public event EventHandler ShowCountObject;
+        public event EventHandler ShowCountObjectClick;
 
         public Form1()
         {
