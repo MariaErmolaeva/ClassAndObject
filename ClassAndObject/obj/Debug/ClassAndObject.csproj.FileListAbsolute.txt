@@ -7,3 +7,6 @@ c:\users\1.rmcktt\documents\visual studio 2015\Projects\ClassAndObject\ClassAndO
 c:\users\1.rmcktt\documents\visual studio 2015\Projects\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.csproj.GenerateResource.Cache
 c:\users\1.rmcktt\documents\visual studio 2015\Projects\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.exe
 c:\users\1.rmcktt\documents\visual studio 2015\Projects\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.pdb
+S:\PortableGit\ClassAndObject\ClassAndObject\bin\Debug\ClassAndObject.exe.config
+S:\PortableGit\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.exe
+S:\PortableGit\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.pdb

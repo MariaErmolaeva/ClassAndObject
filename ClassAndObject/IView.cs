@@ -11,10 +11,13 @@ namespace ClassAndObject
         void MessageError();
         void MessageSuccess();
 
+        void MessageShow();
+
         event EventHandler CreateObjectClick;
         event EventHandler IncreaseClick;
         event EventHandler DicreaseClick;
 
         event EventHandler ShowClick;
+        event EventHandler ShowCountObject;
     }
 }

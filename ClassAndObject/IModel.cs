@@ -11,5 +11,7 @@ namespace ClassAndObject
         int index { get; }
 
         void ShowArray();
+
+
     }
 }

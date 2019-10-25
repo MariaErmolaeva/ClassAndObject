@@ -16,5 +16,7 @@ namespace ClassAndObject
             this.view = view;
             this.model = model;
         }
+
+
     }
 }

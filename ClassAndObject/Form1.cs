@@ -10,9 +10,14 @@ using System.Windows.Forms;
 
 namespace ClassAndObject
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Form, IView
     {
-        Time time;
+
+        public event EventHandler CreateObjectClick;
+        public event EventHandler IncreaseClick;
+        public event EventHandler DicreaseClick;
+        public event EventHandler ShowClick;
+        public event EventHandler ShowCountObject;
 
         public Form1()
         {
@@ -20,25 +25,19 @@ namespace ClassAndObject
         }
 
 
-        private void Create_Click(object sender, EventArgs e)
+        public void MessageError()
         {
-            time = new Time(2,14);
-            Message();          
+            throw new NotImplementedException();
         }
 
-
-        public void Message()
+        public void MessageSuccess()
         {
-            mainText.Text += "Часы: " + time.hoursGetSet.ToString() + "\nМинуты: " + time.minutesGetSet.ToString() + "\n\n";
+            throw new NotImplementedException();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        public void MessageShow()
         {
-            time.AddMin(time);
-            Message();
-
-            Time.AddMinutes(time);
-            Message();
+            throw new NotImplementedException();
         }
     }
 }
