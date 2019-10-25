@@ -29,9 +29,10 @@
         private void InitializeComponent()
         {
             this.mainText = new System.Windows.Forms.RichTextBox();
-            this.Create = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.CreateObject = new System.Windows.Forms.Button();
+            this.ShowCountObject = new System.Windows.Forms.Button();
+            this.Increase = new System.Windows.Forms.Button();
+            this.Dicrease = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // mainText
@@ -42,43 +43,51 @@
             this.mainText.TabIndex = 0;
             this.mainText.Text = "";
             // 
-            // Create
+            // CreateObject
             // 
-            this.Create.Location = new System.Drawing.Point(174, 12);
-            this.Create.Name = "Create";
-            this.Create.Size = new System.Drawing.Size(98, 27);
-            this.Create.TabIndex = 1;
-            this.Create.Text = "Создать";
-            this.Create.UseVisualStyleBackColor = true;
-            this.Create.Click += new System.EventHandler(this.Create_Click);
+            this.CreateObject.Location = new System.Drawing.Point(174, 12);
+            this.CreateObject.Name = "CreateObject";
+            this.CreateObject.Size = new System.Drawing.Size(98, 27);
+            this.CreateObject.TabIndex = 1;
+            this.CreateObject.Text = "Создать";
+            this.CreateObject.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // ShowCountObject
             // 
-            this.button1.Location = new System.Drawing.Point(174, 214);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 36);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Количество элементов";
-            this.button1.UseVisualStyleBackColor = true;
+            this.ShowCountObject.Location = new System.Drawing.Point(174, 214);
+            this.ShowCountObject.Name = "ShowCountObject";
+            this.ShowCountObject.Size = new System.Drawing.Size(98, 36);
+            this.ShowCountObject.TabIndex = 2;
+            this.ShowCountObject.Text = "Количество элементов";
+            this.ShowCountObject.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // Increase
             // 
-            this.button2.Location = new System.Drawing.Point(174, 45);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(98, 27);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Добавить минут";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Increase.Location = new System.Drawing.Point(174, 45);
+            this.Increase.Name = "Increase";
+            this.Increase.Size = new System.Drawing.Size(98, 27);
+            this.Increase.TabIndex = 3;
+            this.Increase.Text = "++Минуты";
+            this.Increase.UseVisualStyleBackColor = true;
+            // 
+            // Dicrease
+            // 
+            this.Dicrease.Location = new System.Drawing.Point(175, 79);
+            this.Dicrease.Name = "Dicrease";
+            this.Dicrease.Size = new System.Drawing.Size(97, 27);
+            this.Dicrease.TabIndex = 4;
+            this.Dicrease.Text = "--Минуты";
+            this.Dicrease.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.Create);
+            this.Controls.Add(this.Dicrease);
+            this.Controls.Add(this.Increase);
+            this.Controls.Add(this.ShowCountObject);
+            this.Controls.Add(this.CreateObject);
             this.Controls.Add(this.mainText);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -89,9 +98,10 @@
         #endregion
 
         private System.Windows.Forms.RichTextBox mainText;
-        private System.Windows.Forms.Button Create;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button CreateObject;
+        private System.Windows.Forms.Button ShowCountObject;
+        private System.Windows.Forms.Button Increase;
+        private System.Windows.Forms.Button Dicrease;
     }
 }
 
