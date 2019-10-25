@@ -51,6 +51,7 @@
             this.CreateObject.TabIndex = 1;
             this.CreateObject.Text = "Создать";
             this.CreateObject.UseVisualStyleBackColor = true;
+            this.CreateObject.Click += new System.EventHandler(this.CreateObject_Click);
             // 
             // ShowCountObject
             // 
@@ -69,6 +70,7 @@
             this.Increase.TabIndex = 3;
             this.Increase.Text = "++Минуты";
             this.Increase.UseVisualStyleBackColor = true;
+            this.Increase.Click += new System.EventHandler(this.Increase_Click);
             // 
             // Dicrease
             // 
@@ -78,6 +80,7 @@
             this.Dicrease.TabIndex = 4;
             this.Dicrease.Text = "--Минуты";
             this.Dicrease.UseVisualStyleBackColor = true;
+            this.Dicrease.Click += new System.EventHandler(this.Dicrease_Click);
             // 
             // Form1
             // 

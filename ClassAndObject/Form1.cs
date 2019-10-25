@@ -39,5 +39,20 @@ namespace ClassAndObject
         {
             throw new NotImplementedException();
         }
+
+        private void CreateObject_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Increase_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Dicrease_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
