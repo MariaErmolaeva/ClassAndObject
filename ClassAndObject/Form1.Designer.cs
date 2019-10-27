@@ -33,11 +33,12 @@
             this.ShowCountObject = new System.Windows.Forms.Button();
             this.Increase = new System.Windows.Forms.Button();
             this.Dicrease = new System.Windows.Forms.Button();
+            this.timeArrayList = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // mainText
             // 
-            this.mainText.Location = new System.Drawing.Point(12, 12);
+            this.mainText.Location = new System.Drawing.Point(353, 25);
             this.mainText.Name = "mainText";
             this.mainText.Size = new System.Drawing.Size(156, 238);
             this.mainText.TabIndex = 0;
@@ -45,7 +46,7 @@
             // 
             // CreateObject
             // 
-            this.CreateObject.Location = new System.Drawing.Point(174, 12);
+            this.CreateObject.Location = new System.Drawing.Point(170, 12);
             this.CreateObject.Name = "CreateObject";
             this.CreateObject.Size = new System.Drawing.Size(98, 27);
             this.CreateObject.TabIndex = 1;
@@ -55,7 +56,7 @@
             // 
             // ShowCountObject
             // 
-            this.ShowCountObject.Location = new System.Drawing.Point(174, 214);
+            this.ShowCountObject.Location = new System.Drawing.Point(169, 240);
             this.ShowCountObject.Name = "ShowCountObject";
             this.ShowCountObject.Size = new System.Drawing.Size(98, 36);
             this.ShowCountObject.TabIndex = 2;
@@ -64,7 +65,7 @@
             // 
             // Increase
             // 
-            this.Increase.Location = new System.Drawing.Point(174, 45);
+            this.Increase.Location = new System.Drawing.Point(169, 174);
             this.Increase.Name = "Increase";
             this.Increase.Size = new System.Drawing.Size(98, 27);
             this.Increase.TabIndex = 3;
@@ -74,7 +75,7 @@
             // 
             // Dicrease
             // 
-            this.Dicrease.Location = new System.Drawing.Point(175, 79);
+            this.Dicrease.Location = new System.Drawing.Point(170, 207);
             this.Dicrease.Name = "Dicrease";
             this.Dicrease.Size = new System.Drawing.Size(97, 27);
             this.Dicrease.TabIndex = 4;
@@ -82,11 +83,20 @@
             this.Dicrease.UseVisualStyleBackColor = true;
             this.Dicrease.Click += new System.EventHandler(this.Dicrease_Click);
             // 
+            // timeArrayList
+            // 
+            this.timeArrayList.FormattingEnabled = true;
+            this.timeArrayList.Location = new System.Drawing.Point(12, 12);
+            this.timeArrayList.Name = "timeArrayList";
+            this.timeArrayList.Size = new System.Drawing.Size(139, 264);
+            this.timeArrayList.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(519, 304);
+            this.Controls.Add(this.timeArrayList);
             this.Controls.Add(this.Dicrease);
             this.Controls.Add(this.Increase);
             this.Controls.Add(this.ShowCountObject);
@@ -105,6 +115,7 @@
         private System.Windows.Forms.Button ShowCountObject;
         private System.Windows.Forms.Button Increase;
         private System.Windows.Forms.Button Dicrease;
+        private System.Windows.Forms.ListBox timeArrayList;
     }
 }
 

@@ -8,10 +8,10 @@ namespace ClassAndObject
 {
     public interface IView
     {
-        void MessageError();
-        void MessageSuccess();
+        void CreateOnSuccess(string time);
+        void EditOnSuccess(string time, int index);
 
-        void MessageShow();
+        void MessageShow(string message);
 
         event EventHandler CreateObjectClick;
         event EventHandler IncreaseClick;
