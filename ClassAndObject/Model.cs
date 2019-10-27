@@ -33,5 +33,10 @@ namespace ClassAndObject
                 timeArray.Add(timeArr[i]);
         }
 
+        void AddElement(Time time)
+        {
+            timeArray.Add(time);
+        }
+
     }
 }

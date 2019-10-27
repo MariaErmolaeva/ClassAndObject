@@ -14,5 +14,6 @@ namespace ClassAndObject
 
         List<Time> allArray { get; }
 
+        void AddElement(Time time);
     }
 }
