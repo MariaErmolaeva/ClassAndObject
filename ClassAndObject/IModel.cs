@@ -8,10 +8,11 @@ namespace ClassAndObject
 {
     public interface IModel
     {
-        int index { get; }
+        int index { set; }
 
-        void ShowArray();
+        Time element { get; }
 
+        List<Time> allArray { get; }
 
     }
 }

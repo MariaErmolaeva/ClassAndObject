@@ -10,3 +10,6 @@ c:\users\1.rmcktt\documents\visual studio 2015\Projects\ClassAndObject\ClassAndO
 S:\PortableGit\ClassAndObject\ClassAndObject\bin\Debug\ClassAndObject.exe.config
 S:\PortableGit\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.exe
 S:\PortableGit\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.pdb
+C:\Users\Иероглиф\Documents\GitHub\ClassAndObject\ClassAndObject\bin\Debug\ClassAndObject.exe.config
+C:\Users\Иероглиф\Documents\GitHub\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.exe
+C:\Users\Иероглиф\Documents\GitHub\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.pdb

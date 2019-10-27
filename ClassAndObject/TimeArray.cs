@@ -8,15 +8,14 @@ namespace ClassAndObject
 {
     public class Model: IModel
     {
-        List<Time> timeArray;
+        private List<Time> timeArray;
+        private int indexArray;
 
-        public int index
-        {
-            get
-            {
-                return 1;
-            }
-        }
+        public int index { set { if (indexArray < timeArray.Count) indexArray = value; } }
+
+        public Time element { get { return timeArray[indexArray]; } }
+
+        public List<Time> allArray { get { return timeArray; } }
 
         public Model() { }
 
@@ -34,12 +33,5 @@ namespace ClassAndObject
                 timeArray.Add(timeArr[i]);
         }
 
-        public void ShowArray()
-        {
-            throw new NotImplementedException();
-        }
-
-
-        
     }
 }
