@@ -8,6 +8,9 @@ namespace ClassAndObject
 {
     public interface IView
     {
+        int index { get; }
+        int countList { get; }
+
         void CreateOnSuccess(string time);
         void EditOnSuccess(string time, int index);
 
