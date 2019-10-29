@@ -19,6 +19,10 @@ namespace ClassAndObject
         public event EventHandler ShowClick;
         public event EventHandler ShowCountObjectClick;
 
+        public int index { get { if (timeArrayList.SelectedIndex != -1) return timeArrayList.SelectedIndex; else return -1; } }
+
+        public int countList { get { return timeArrayList.Items.Count; } }
+
         public Form1()
         {
             InitializeComponent();
@@ -62,6 +66,12 @@ namespace ClassAndObject
         public void EditOnSuccess(string time, int index)
         {
             timeArrayList.Items[index] = time;
+        }
+
+        private void showClick_Click(object sender, EventArgs e)
+        {
+            if (ShowClick != null)
+                ShowClick(this, EventArgs.Empty);
         }
     }
 }
