@@ -17,7 +17,7 @@ namespace ClassAndObject
         public event EventHandler IncreaseClick;
         public event EventHandler DicreaseClick;
         public event EventHandler ShowClick;
-        public event EventHandler ShowCountObjectClick;
+
 
         public int index { get { if (timeArrayList.SelectedIndex != -1) return timeArrayList.SelectedIndex; else return -1; } }
 
@@ -27,7 +27,6 @@ namespace ClassAndObject
         {
             InitializeComponent();
         }
-
 
 
         public void MessageSuccess()

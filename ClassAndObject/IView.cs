@@ -21,6 +21,6 @@ namespace ClassAndObject
         event EventHandler DicreaseClick;
 
         event EventHandler ShowClick;
-        event EventHandler ShowCountObjectClick;
+
     }
 }

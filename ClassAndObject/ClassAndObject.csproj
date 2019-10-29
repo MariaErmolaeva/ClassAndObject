@@ -53,7 +53,6 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="IModel.cs" />
-    <Compile Include="ITime.cs" />
     <Compile Include="IView.cs" />
     <Compile Include="Presentor.cs" />
     <Compile Include="Program.cs" />

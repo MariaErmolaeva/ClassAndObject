@@ -16,7 +16,6 @@ namespace ClassAndObject
             this.view = view;
             this.model = model;
 
-
             view.CreateObjectClick += View_CreateObjectClick;
             view.DicreaseClick += View_DicreaseClick;
             view.IncreaseClick += View_IncreaseClick;
@@ -50,7 +49,6 @@ namespace ClassAndObject
                 {
                     model.index = view.index;
                     model.element ++;
-
                     view.EditOnSuccess(model.element.hoursGetSet.ToString() + ":" + model.element.minutesGetSet, view.index);
                 }
             }
@@ -79,7 +77,17 @@ namespace ClassAndObject
 
         private void View_CreateObjectClick(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Random rnd = new Random();
+                model.AddElement(new Time(rnd.Next(0, 23), rnd.Next(0, 59)));
+                model.index = model.count-1;
+                view.CreateOnSuccess(model.element.hoursGetSet + ":" + model.element.minutesGetSet);
+            }
+            catch
+            {
+
+            }
         }
     }
 }
