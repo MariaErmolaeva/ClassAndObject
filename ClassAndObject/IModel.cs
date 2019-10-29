@@ -10,7 +10,9 @@ namespace ClassAndObject
     {
         int index { set; }
 
-        Time element { get; }
+        int count { get; }
+
+        Time element { get; set; }
 
         List<Time> allArray { get; }
 
