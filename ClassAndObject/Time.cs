@@ -8,8 +8,6 @@ namespace ClassAndObject
 {
     public class Time
     {
-        public static int countObject = 0;
-
         private int hours;
         private int minutes;
 
@@ -24,8 +22,6 @@ namespace ClassAndObject
 
             if (minutes < 60)
                 this.minutes = minutes;
-
-            countObject++;
         }
 
 
