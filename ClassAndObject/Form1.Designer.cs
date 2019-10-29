@@ -34,13 +34,14 @@
             this.Increase = new System.Windows.Forms.Button();
             this.Dicrease = new System.Windows.Forms.Button();
             this.timeArrayList = new System.Windows.Forms.ListBox();
+            this.showClick = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // mainText
             // 
-            this.mainText.Location = new System.Drawing.Point(353, 25);
+            this.mainText.Location = new System.Drawing.Point(287, 12);
             this.mainText.Name = "mainText";
-            this.mainText.Size = new System.Drawing.Size(156, 238);
+            this.mainText.Size = new System.Drawing.Size(153, 264);
             this.mainText.TabIndex = 0;
             this.mainText.Text = "";
             // 
@@ -91,11 +92,22 @@
             this.timeArrayList.Size = new System.Drawing.Size(139, 264);
             this.timeArrayList.TabIndex = 5;
             // 
+            // showClick
+            // 
+            this.showClick.Location = new System.Drawing.Point(170, 45);
+            this.showClick.Name = "showClick";
+            this.showClick.Size = new System.Drawing.Size(97, 29);
+            this.showClick.TabIndex = 6;
+            this.showClick.Text = "Показать";
+            this.showClick.UseVisualStyleBackColor = true;
+            this.showClick.Click += new System.EventHandler(this.showClick_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(519, 304);
+            this.Controls.Add(this.showClick);
             this.Controls.Add(this.timeArrayList);
             this.Controls.Add(this.Dicrease);
             this.Controls.Add(this.Increase);
@@ -116,6 +128,7 @@
         private System.Windows.Forms.Button Increase;
         private System.Windows.Forms.Button Dicrease;
         private System.Windows.Forms.ListBox timeArrayList;
+        private System.Windows.Forms.Button showClick;
     }
 }
 
