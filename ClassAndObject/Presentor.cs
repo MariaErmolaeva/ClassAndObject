@@ -45,7 +45,7 @@ namespace ClassAndObject
         {
             try
             {
-                if (view.index != 1)
+                if (view.index != -1)
                 {
                     model.index = view.index;
                     model.element ++;
@@ -54,7 +54,7 @@ namespace ClassAndObject
             }
             catch
             {
-                view.MessageShow("Вы не выбрали элемент массива или вышли за границу массива");
+                view.MessageShow("Выберите элемент из списка");
             }
         }
 
@@ -62,7 +62,7 @@ namespace ClassAndObject
         {
             try
             {
-                if (view.index != 1)
+                if (view.index != -1)
                 {
                     model.index = view.index;
                     model.element--;
@@ -71,7 +71,7 @@ namespace ClassAndObject
             }
             catch
             {
-                view.MessageShow("Вы не выбрали элемент массива или вышли за границу массива");
+                view.MessageShow("Выберите элемент из списка");
             }
         }
 
