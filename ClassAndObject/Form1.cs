@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ClassAndObject
@@ -26,12 +19,15 @@ namespace ClassAndObject
         public Form1()
         {
             InitializeComponent();
+            Presentor presentor = new Presentor(new Model(6));
+            presentor.AttachView(this);
         }
 
 
         public void MessageSuccess()
         {
             throw new NotImplementedException();
+            
         }
 
         public void MessageShow(string message)

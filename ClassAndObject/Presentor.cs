@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ClassAndObject
 {
@@ -11,10 +8,14 @@ namespace ClassAndObject
         IView view;
         IModel model;
 
-        public Presentor(IView view, IModel model)
+        public Presentor(IModel model)
+        {
+            this.model = model;
+        }
+
+        public void AttachView(IView view)
         {
             this.view = view;
-            this.model = model;
 
             view.CreateObjectClick += View_CreateObjectClick;
             view.DicreaseClick += View_DicreaseClick;
@@ -86,7 +87,7 @@ namespace ClassAndObject
             }
             catch
             {
-
+                view.MessageShow("Не удалось добавить элемент");
             }
         }
     }

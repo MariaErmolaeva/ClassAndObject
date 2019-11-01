@@ -29,3 +29,9 @@ C:\Users\Иероглиф\Documents\GitHub\ClassAndObject\ClassAndObject\bin\Deb
 C:\Users\Иероглиф\Documents\GitHub\ClassAndObject\ClassAndObject\bin\Debug\normnfd.nlp
 C:\Users\Иероглиф\Documents\GitHub\ClassAndObject\ClassAndObject\bin\Debug\normnfkc.nlp
 C:\Users\Иероглиф\Documents\GitHub\ClassAndObject\ClassAndObject\bin\Debug\normnfkd.nlp
+S:\PortableGit\ClassAndObject\ClassAndObject\bin\Debug\ClassAndObject.exe
+S:\PortableGit\ClassAndObject\ClassAndObject\bin\Debug\ClassAndObject.pdb
+S:\PortableGit\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.csprojResolveAssemblyReference.cache
+S:\PortableGit\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.Form1.resources
+S:\PortableGit\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.Properties.Resources.resources
+S:\PortableGit\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.csproj.GenerateResource.Cache
