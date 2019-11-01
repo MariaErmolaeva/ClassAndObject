@@ -17,11 +17,11 @@ namespace ClassAndObject
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Form1 form = new Form1();
+            /*Form1 form = new Form1();
             Model model = new Model(6);
             Presentor presentor = new Presentor(form, model);
-
-            Application.Run(form);
+            */
+            Application.Run(new Form1());
         }
     }
 }

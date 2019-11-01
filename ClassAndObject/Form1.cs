@@ -26,12 +26,14 @@ namespace ClassAndObject
         public Form1()
         {
             InitializeComponent();
+            Presentor presentor = new Presentor(this, new Model(6));
         }
 
 
         public void MessageSuccess()
         {
             throw new NotImplementedException();
+            
         }
 
         public void MessageShow(string message)
