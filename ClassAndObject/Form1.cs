@@ -19,7 +19,8 @@ namespace ClassAndObject
         public Form1()
         {
             InitializeComponent();
-            Presentor presentor = new Presentor(this, new Model(6));
+            Presentor presentor = new Presentor(new Model(6));
+            presentor.AttachView(this);
         }
 
 
